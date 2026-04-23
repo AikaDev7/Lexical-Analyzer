@@ -22,9 +22,13 @@ public class Keyword extends Token{
             BREAK = new Keyword("break", Tag.BREAK),
             DO = new Keyword("do", Tag.DO),
             WHILE = new Keyword("while", Tag.WHILE),
-            MINUS = new Keyword("-", Tag.MINUS),
-            PLUS = new Keyword("+", Tag.PLUS),
-            DIVISION = new Keyword("/", Tag.DIVISION),
-            MULTIPLICATION = new Keyword("*", Tag.MULTIPLICATION);
-
+            PUBLIC = new Keyword("public", Tag.BASIC_TYPE),
+            CLASS = new Keyword("class", Tag.BASIC_TYPE),
+            STATIC = new Keyword("static", Tag.BASIC_TYPE),
+            VOID = new Keyword("void", Tag.BASIC_TYPE),
+            STRING_TYPE = new Keyword("String", Tag.BASIC_TYPE),
+            INT = new Keyword("int", Tag.BASIC_TYPE),
+            FLOAT = new Keyword("float", Tag.BASIC_TYPE),
+            CHAR = new Keyword("char", Tag.BASIC_TYPE),
+            BOOLEAN = new Keyword("boolean", Tag.BASIC_TYPE);
 }

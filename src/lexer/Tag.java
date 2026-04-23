@@ -24,10 +24,8 @@ public class Tag {
     public final static int NUM = 265;
     public final static int REAL = 266;
     public final static int BASIC_TYPE = 267;
-    public final static int ARRAY_TYPE = 268;
 
-    public final static int MINUS = 269;
-    public final static int PLUS = 270;
-    public final static int DIVISION = 271;
-    public final static int MULTIPLICATION = 271;
+    public final static int STRING = 273;
+    public final static int CHAR = 274;
+
 }
