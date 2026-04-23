@@ -55,7 +55,7 @@ public class Lexer {
         if (index < input.length()) {
             peek = input.charAt(index++);
         } else {
-            peek = (char) -1; // EOF
+            peek = (char) -1;
         }
     }
 

@@ -25,7 +25,7 @@ public class Tag {
     public final static int REAL = 266;
     public final static int BASIC_TYPE = 267;
 
-    public final static int STRING = 273;
-    public final static int CHAR = 274;
+    public final static int STRING = 268;
+    public final static int CHAR = 269;
 
 }
